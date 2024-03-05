@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="settingMainPane" minHeight="334.0" minWidth="523.0" prefHeight="334.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="caster.ui.SettingController">
+   <top>
+      <AnchorPane fx:id="topPane" maxHeight="27.0" minHeight="35.0" prefHeight="35.0" prefWidth="557.0" styleClass="side-pane">
+         <children>
+            <Label fx:id="exitSettings" layoutX="499.0" layoutY="1.0" maxHeight="84.0" maxWidth="114.0" minHeight="35.0" minWidth="35.0" prefHeight="35.0" prefWidth="35.0" styleClass="top-button" text="×" AnchorPane.rightAnchor="0">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <GridPane alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="358.0" minWidth="10.0" prefWidth="18.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="358.0" minWidth="0.0" prefWidth="211.00001525878906" />
+            <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="358.0" minWidth="4.66668701171875" prefWidth="6.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="358.0" minWidth="8.0" prefWidth="38.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="358.0" minWidth="2.0" prefWidth="32.0" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="358.0" minWidth="10.0" prefWidth="24.0" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="358.0" minWidth="4.333343505859375" prefWidth="61.0" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="358.0" minWidth="9.0" prefWidth="18.0" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="358.0" minWidth="0.0" prefWidth="20.66668701171875" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="358.0" minWidth="10.0" prefWidth="25.66668701171875" />
+         </columnConstraints>
+         <TextField fx:id="apiField" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="242.0" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="1" />
+         <ColorPicker fx:id="colorPicker1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="241.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+         <ColorPicker fx:id="colorPicker2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="241.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+         <Button fx:id="setApiBut" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="OK" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+         <Label fx:id="hyperlink" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="34.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <font>
+               <Font size="17.0" />
+            </font>
+         </Label>
+         <Label fx:id="colorLabel" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="34.0" prefWidth="152.0" GridPane.columnSpan="3" GridPane.rowIndex="5">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <Button fx:id="reset" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="51.0" prefWidth="116.0" GridPane.columnIndex="4" GridPane.columnSpan="3" GridPane.rowIndex="9" GridPane.rowSpan="2">
+            <font>
+               <Font size="13.0" />
+            </font>
+         </Button>
+         <Button fx:id="apply" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="41.0" prefWidth="116.0" GridPane.columnIndex="4" GridPane.columnSpan="3" GridPane.rowIndex="6" GridPane.rowSpan="2">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Button>
+         <ChoiceBox fx:id="choiceBox" prefWidth="150.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+         <rowConstraints>
+            <RowConstraints maxHeight="129.0" minHeight="0.0" prefHeight="30.666664123535156" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="185.0" minHeight="8.0" prefHeight="29.333335876464844" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="126.0" minHeight="8.666664123535156" prefHeight="8.666664123535156" valignment="BOTTOM" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="126.0" minHeight="0.0" prefHeight="30.0" valignment="BOTTOM" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="126.0" minHeight="8.0" prefHeight="33.0" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="29.0" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="13.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="83.0" minHeight="10.0" prefHeight="24.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="8.0" prefHeight="13.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="70.0" minHeight="9.0" prefHeight="31.0" vgrow="ALWAYS" />
+         </rowConstraints>
+      </GridPane>
+   </center>
+   <left>
+      <AnchorPane maxWidth="35.0" minWidth="35.0" prefHeight="464.0" prefWidth="35.0" styleClass="side-pane" />
+   </left>
+   <right>
+      <AnchorPane maxWidth="35.0" minWidth="35.0" onMouseDragged="#resizableRight" onMousePressed="#mousePressed" prefHeight="312.0" prefWidth="35.0" styleClass="side-pane">
+         <cursor>
+            <Cursor fx:constant="NW_RESIZE" />
+         </cursor></AnchorPane>
+   </right>
+   <bottom>
+      <AnchorPane maxHeight="35.0" minHeight="35.0" onMouseDragged="#resizableRight" onMousePressed="#mousePressed" prefHeight="35.0" prefWidth="591.0" styleClass="side-pane">
+         <cursor>
+            <Cursor fx:constant="NW_RESIZE" />
+         </cursor></AnchorPane>
+   </bottom>
+</BorderPane>
