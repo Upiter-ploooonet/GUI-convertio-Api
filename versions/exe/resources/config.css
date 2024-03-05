@@ -1,0 +1,149 @@
+/*
+API= ;
+LOC=ENG;
+*/
+.root {
+paint1:#000000;
+paint2:#d8002b;
+-fx-font-size: 100%;
+}
+
+#hyperlink, #colorLabel{
+   -fx-font-weight: bold;
+   -fx-padding: 0 0 0 15px;
+   -fx-text-fill: paint1;
+
+}
+
+
+.main-pane{
+    -fx-background-color: linear-gradient(from 690 680 to 0% 0%, paint2, paint1);
+}
+
+#settingMainPane,#resizableBut{
+-fx-background-color: derive(paint2, -30%);
+
+}
+#progIndicator:disabled{
+-fx-opacity: 0;
+}
+.side-pane {
+    -fx-background-color: paint1;
+}
+
+#myLabel {
+    -fx-text-fill: paint2;
+}
+
+#errMainPane{
+-fx-background-color: paint1;
+}
+
+
+#progIndicator{
+  -fx-progress-color: paint2;
+}
+
+#settings{
+-fx-padding: -20;
+}
+.top-button {
+    -fx-border-color: paint2;
+    -fx-text-fill: paint2;
+    -fx-border-width: 3;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-opacity: 0.9;
+}
+#exit,#exitSettings{
+-fx-padding: -1550% 0 0 145%;
+}
+
+
+.top-button:hover {
+    -fx-background-color: paint2;
+    -fx-text-fill: paint1;
+    -fx-text-alignment: center;
+}
+.color-picker. #apiField{
+  -fx-font-size: 120%;
+  -fx-prompt-size: 120%;
+}
+#downButton {
+    -fx-padding: 0 0 -16 4;
+}
+
+.button, .text-field, #errLabel, .color-picker .label, .color-picker, #choiceBox{
+    -fx-text-fill: paint2;
+    -fx-background-color: paint1;
+}
+#choiceBox .label{
+  -fx-text-fill:paint2;
+  -fx-border-color:paint1;
+}
+#choiceBox .arrow{
+ -fx-background-color: paint2;
+}
+
+
+.text-field, #terminal,{
+    -fx-highlight-text-fill: paint1;
+    -fx-highlight-fill: paint2;
+    -fx-prompt-text-fill: paint2;
+}
+
+
+
+#terminal .content, #terminal {
+     -fx-opacity: 1;
+     -fx-background-color: paint1;
+     -fx-background-insets: -10;
+     -fx-background-radius: 10;
+     -fx-text-fill: paint2;
+     -fx-padding: 0 -9 0 0;
+}
+
+#terminal .scroll-bar:vertical,
+#terminal .scroll-bar:horizontal{
+    -fx-opacity: 0;
+}
+
+
+
+.context-menu{
+ -fx-background-color: transparent;
+}
+.menu-item .label, .menu-item{
+ -fx-text-fill: paint2;
+ -fx-background-color: paint1;
+}
+.button:hover {
+    -fx-text-fill: paint1;
+    -fx-background-color: paint2;
+    -fx-opacity: 0.8;
+    }
+
+.menu-item:hover{
+ -fx-border-color: paint2;
+ -fx-border-width: 1px;
+}
+#hyperlink:hover{
+   -fx-background-color: paint1;
+   -fx-text-fill: paint2;
+    -fx-font-weight: bold;
+}
+#apiField{
+
+
+}
+.ready-text-field{
+    -fx-background-color: transparent;
+     -fx-prompt-text-fill: paint1;
+       -fx-font-weight: bold;
+  -fx-font-size: 14px;
+}
+.ready-text-field:focused, .ready-text-field:hover {
+    -fx-background-color: paint1;
+      -fx-prompt-text-fill: paint2;
+    -fx-text-fill:  paint2;
+}
