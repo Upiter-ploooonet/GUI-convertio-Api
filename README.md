@@ -35,6 +35,6 @@ Caster is an application for file conversion that utilizes the [Convertio API](h
 ## Additional Information
 
 1. Caster uses JavaFX for the UI and libraries [Moshi](https://github.com/Upiter-ploooonet/GUI-convertio-Api/issues) and [Okhttp](https://github.com/square/okhttp) for online functionality.
-2. License: [Apache Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+2. License: [Apache Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) allows you to use this application at your discretion.
 3. Convertio provides 25 minutes of conversion per day. Exceeding this limit will result in an error like "No conversion minutes left" or a similar message.
 4. The configuration file stores your API key and color settings. If passing on the application, remember to remove your API key.
