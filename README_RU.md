@@ -35,6 +35,6 @@ Caster - это приложение для конвертации файлов,
 ## Остальная Информация
 
 1. Caster использует JavaFX для UI и библиотеки [Moshi](https://github.com/Upiter-ploooonet/GUI-convertio-Api/issues) и [Okhttp](https://github.com/square/okhttp) для работы онлайн.
-2. Лицензия: [Apache Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+2. Лицензия: [Apache Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) позволяет вам использовать данное приложение по своему усмотрению.
 3. У Convertio доступно 25 минут конвертации в день. При превышении этого лимита будет выдаваться ошибка "No conversion minutes left" или аналогичная.
 4. Файл конфигурации хранит ваш API ключ и настройки цветов. Если передаете приложение, не забудьте удалить ваш API ключ.
