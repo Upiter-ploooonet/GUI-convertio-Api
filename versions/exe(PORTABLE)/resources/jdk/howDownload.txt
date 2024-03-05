@@ -1,5 +1,0 @@
-1. Download the JDK from https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.zip or choose another one (preferably a newer version)."
-2. Unpack the contents of the folder from the archive here
-
-1.Скачайте jdk тут https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.zip  или другую (желательно новее)
-2.Распакуйте содержимое папки в из архива сюда
