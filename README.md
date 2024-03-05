@@ -7,7 +7,7 @@ Caster is an application for file conversion that utilizes the [Convertio API](h
 1. **"code"**: Contains the full source code of the project.
 2. **"jar"**: Includes the JAR file, application resources, and a script for launching the JAR.
 3. **"exe"**: Represents a fully prepared EXE file for Windows with application resources.
-4. **"exe(With JDK)"**: A fully prepared EXE application also including the JDK.
+4.**"exe(PORTABLE)"**: Fully prepared EXE, to run it, you will need to download JDK (follow the instructions in the "resources/jdk" path).
 
 ## Getting Started
 
